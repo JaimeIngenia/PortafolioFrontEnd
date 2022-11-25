@@ -1,7 +1,17 @@
 import React from 'react'
+import { BodyPortafolio } from './components/BodyPortafolio'
+import { Footer } from './components/footer'
+import { Proyectos } from './components/Proyectos'
 
 export const AppPortafolio = () => {
   return (
-    <div>AppPortafolio pero con stilos iniciando rama jaime</div>
+    <div  >
+
+    <BodyPortafolio/>
+    <Proyectos/>
+    <Footer/>
+
+
+    </div>
   )
 }
