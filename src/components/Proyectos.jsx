@@ -1,6 +1,11 @@
 import styles from '../styles/Proyectos.module.css'
 import btn_next from '../assets/btn_next.svg'
-
+import cssHtml from '../assets/cssHtml.svg'
+import reactw from '../assets/react.svg'
+import asincro from '../assets/asincro.svg'
+import fireB from '../assets/fireB.svg'
+import noCountry from '../assets/noCountry.svg'
+import ideas from '../assets/ideas.svg'
 import React from 'react'
 import { Card } from './Card'
 import { Footer } from './footer'
@@ -17,13 +22,41 @@ export const Proyectos = () => {
                 
             </div>
 
-            <div className={`${styles.contenedorCards}  `} >
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+            <div className={`${styles.contenedorCards}`} >
+                <h1>Proyects</h1>
+
+                <div className={`${styles.container__box}`} >
+                  <a href="https://lucid-jang-9a7dde.netlify.app/">
+                  <div className={`${styles.box}`}>
+                    <img src={cssHtml} alt="" />
+                    <h5 className={`${styles.textoCard}`} >CSS & html</h5>
+                  </div>
+                  </a>
+
+
+                  <div className={`${styles.box}`}>
+                    <img src={reactw} alt="" />
+                    <h5 className={`${styles.textoCard}`} >React</h5>
+                  </div>
+                  <div className={`${styles.box}`}>
+                    <img src={asincro} alt="" />
+                    <h5 className={`${styles.textoCard}`} >React Asincrónico</h5>
+                  </div>
+                  <div className={`${styles.box}`}>
+                    <img src={fireB} alt="" />
+                    <h5 className={`${styles.textoCard}`} >React & FireBase</h5>
+                  </div>
+                  <div className={`${styles.box}`}>
+                    <img src={noCountry} alt="" />
+                    <h5 className={`${styles.textoCard}`} >No Country</h5>
+                  </div>
+                  <div className={`${styles.box}`}>
+                    <img src={ideas} alt="" />
+                    <h5 className={`${styles.textoCard}`} >Don Rémulo</h5>
+                  </div>
+                  
+                </div>
+
             </div>
 
             <img className={`${styles.btn_next}`} src={btn_next} alt="" />
