@@ -7,7 +7,6 @@ import { AppRouter } from './routes/AppRouter'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <Header/>
-      <hr />
       <AppRouter/>
 
   </React.StrictMode>
