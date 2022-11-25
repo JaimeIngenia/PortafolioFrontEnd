@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --colorPrincipal: #090E16;
+    --colorSecundario: #282C33;
+    --colorTerciario: #FFFFFF;
+    --colorMoradoPrimario: #4E3E70;
+    --colorMoradoSecundario: #C778DD;
+    --typografiaPrincipal: 'Inter', sans-serif;
+    --typografiaSecundaria: 'Fira Code', monospace;
+  }
+
+.a{
+    border: solid red 2px;
+}
+.megaPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+.contenedorPrincipal{
+    background-color: var(--colorPrincipal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 624px;
+    position: absolute;
+
+}
+
+.contenedorHorizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+}
+.contenedorVertical{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorCards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 460px; */
+    /* width: 368px;
+    height: 280px; */
+}
+.btn_next{
+    width: 50px;
+    visibility: hidden;
+}
+
+.btn_FrontEnd{
+    width:115px;
+    height: 38px;
+    background: #4E3E70;
+    border-radius: 0.869029px;
+    font-family: var(--typografiaSecundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.0762px;
+    line-height: 18px;
+    color: var(--colorTerciario);
+
+}
+
+.btn_otros{
+    width: 115px;
+    height: 38px;
+    border: 0.87976px solid var(--colorMoradoSecundario);
+    border-radius: 0.869029px;
+    background-color: var(--colorPrincipal);
+    font-family: var(--typografiaSecundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.0762px;
+    line-height: 18px;
+    color: var(--colorTerciario);
+    visibility: hidden;
+
+}

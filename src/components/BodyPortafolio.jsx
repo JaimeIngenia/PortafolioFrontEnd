@@ -3,6 +3,7 @@ import styles from '../styles/BodyPortafolio.module.css'
 import  mayor_morado from '../assets/mayor_morado.svg' 
 import  portafolio from '../assets/portafolio.svg' 
 import btn_next from '../assets/btn_next.svg'
+import { Proyectos } from './Proyectos'
 
 
 export const BodyPortafolio = () => {
@@ -34,7 +35,9 @@ export const BodyPortafolio = () => {
                         <img className={styles.iconoDown} src={btn_next} alt="" />
 
                     </div>
+                    
                     <img src={portafolio} alt="" />
+                    
 
             
                 
