@@ -33,27 +33,40 @@ export const Proyectos = () => {
                   </div>
                   </a>
 
-
+                  <a href="https://segundosprintacamica.netlify.app/">
                   <div className={`${styles.box}`}>
                     <img src={reactw} alt="" />
                     <h5 className={`${styles.textoCard}`} >React</h5>
                   </div>
+                  </a>
+
+                  <a href="https://sp23z.csb.app/">
                   <div className={`${styles.box}`}>
                     <img src={asincro} alt="" />
                     <h5 className={`${styles.textoCard}`} >React Asincrónico</h5>
                   </div>
+                  </a>
+
+                <a href="https://prueba-9137f.web.app/">
                   <div className={`${styles.box}`}>
                     <img src={fireB} alt="" />
                     <h5 className={`${styles.textoCard}`} >React & FireBase</h5>
                   </div>
+                  </a>
+
+                  <a href="https://github.com/No-Country/c8-76-m-react">
                   <div className={`${styles.box}`}>
                     <img src={noCountry} alt="" />
                     <h5 className={`${styles.textoCard}`} >No Country</h5>
                   </div>
+                  </a>
+
+<a href="https://github.com/jorgeemilianom/donRemolo#readme">
                   <div className={`${styles.box}`}>
                     <img src={ideas} alt="" />
                     <h5 className={`${styles.textoCard}`} >Don Rémulo</h5>
                   </div>
+                  </a>
                   
                 </div>
 
