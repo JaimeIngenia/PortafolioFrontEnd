@@ -3,6 +3,7 @@ import btn_next from '../assets/btn_next.svg'
 
 import React from 'react'
 import { Card } from './Card'
+import { Footer } from './footer'
 
 export const Proyectos = () => {
   return (
@@ -28,7 +29,7 @@ export const Proyectos = () => {
             <img className={`${styles.btn_next}`} src={btn_next} alt="" />
 
         </div>
-    
+
     
     </div>
   )
